@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Sandeep Mehta</title>
+    <link
+      rel="icon"
+      type="favicon"
+      href="./images/coding-removebg-preview.svg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <header class="bg-[#0a0a0a] lg:flex lg:justify-between py-3 px-6 gap-5">
+      <div class="flex justify-between font-bold items-center ml-2">
+        <a href="/" class="text-xl no-underline font-epilogue text-[#E5E5E5]"
+          >Sandeep Mehta</a
+        >
+        <div class="block lg:hidden">
+          <button id="astronav-menu">
+            <svg
+              fill="currentColor"
+              class="w-4 h-4 text-gray-500 opacity-100"
+              width="24"
+              height="24"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path
+                class="astronav-toggle hidden"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.829 4.828 4.828z"
+              ></path>
+              <path
+                class="astronav-toggle"
+                fill-rule="evenodd"
+                d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <nav class="astronav-toggle hidden lg:flex">
+        <div
+          class="flex flex-col font-epilogue text-[#E5E5E5] lg:flex-row gap-3 lg:gap-5 py-5 lg:py-1 items-baseline"
+        >
+          <ul
+            class="flex flex-col font-epilogue text-[#E5E5E5] lg:flex-row gap-3 lg:gap-5 py-5 lg:py-1 items-baseline"
+          >
+            <li class="text-[#E5E5E5] text-[18px] cursor-pointer">
+              <a
+                href="/"
+                class="nav-link underline underline-offset-sm decoration-transparent transition duration-300 hover:decoration-nav-link-hover hover:underline-offset-md"
+                >Home</a
+              >
+            </li>
+            <li class="text-[#E5E5E5] text-[18px] cursor-pointer">
+              <a
+                href="/project.html"
+                class="nav-link-active underline decoration-nav-link-hover underline-offset-md"
+                >Projects</a
+              >
+            </li>
+            <li class="text-[#E5E5E5] text-[18px] cursor-pointer">
+              <a
+                href="/blog.html"
+                class="nav-link underline underline-offset-sm decoration-transparent transition duration-300 hover:decoration-nav-link-hover hover:underline-offset-md"
+                >Blog</a
+              >
+            </li>
+          </ul>
+          <button>
+            <a
+              href="/contact.html"
+              class="py-1 px-3 border border-solid border-blue cursor-pointer rounded-sm no-underline hover:border-[#467599] hover:bg-[#467599] transition-colors duration-150 inline-block transform ease-in group-hover:translate-x-2"
+            >
+              Contact
+              <span class="text-[20px] font-bold group-hover:space-x-2"
+                >&#8599;</span
+              >
+            </a>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!--Title section-->
+    <section class="bg-[#1F2124] px-8 py-8 md:py-12">
+      <div class="container mx-auto">
+        <div class="w-1/2">
+          <h1 class="text-4xl font-epilogue text-[#E5E5E5]">Projects</h1>
+        </div>
+      </div>
+    </section>
+
+    <!--Main Projects Section-->
+    <main class="bg-[#0a0a0a] font-epilogue px-8 py-8 md:py-12">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+          <!--razorpay-->
+          <div
+            class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100"
+          >
+            <a href="/projects/fmt-redesign/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/razorpay.png" alt="Screenshot of Razorpay" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] mb-1">
+                  2024 • Razorpay Clone
+                </p>
+                <h2 class="text-3xl text-[#e5e5e5] mb-2"> UI Clone Development</h2>
+                <ul class="flex flex-row flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 text-[#e5e5e5] border-gray-500 border-opacity-40 rounded-full px-2 py-1/2"
+                  >
+                  HTML
+                  </li>
+                  <li
+                    class="border border-1 text-[#e5e5e5] border-gray-500 border-opacity-40 rounded-full px-2 py-1/2"
+                  >
+                  CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 text-[#e5e5e5] border-opacity-40 rounded-full px-2 py-1/2"
+                  >
+                  JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 text-[#e5e5e5] border-opacity-40 rounded-full px-2 py-1/2"
+                  >
+                  Tailwind
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a clone of Razorpay, focusing on replicating the
+                  core design and functionality of its homepage. Implemented a
+                  responsive layout using HTML and CSS, integrated interactive
+                  elements with JavaScript, and styled components with
+                  Bootstrap for a seamless user experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--studysync-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/project.html">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/studysync.png" alt="Screenshot of StudySync" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1"> 2024 • StudySync Redesign</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2"> Frontend Revamp</h2>
+                <ul class="flex flex-row text-[#e5e5e5] font-epilogue flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    Tailwind CSS
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Redesigned the StudySync homepage with a modern and
+                  responsive layout. Leveraged HTML for structure, CSS for
+                  styling, and Tailwind CSS for rapid UI development, ensuring
+                  a clean and visually appealing design optimized for user
+                  experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--practo -->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/practo.png" alt="Screenshot of Practo" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Practo Clone</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2"> UI Clone Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                   HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    Tailwind CSS
+                  </li>
+                </ul>
+                <p class="font-epilogue text-[#c4c4c4]">
+                 Developed a clone of the Practo website, replicating the
+                    design and core functionality of its homepage. Built a
+                    responsive and visually appealing layout using HTML and
+                    Tailwind CSS, ensuring a clean and modern user interface for
+                    an enhanced browsing experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--amazon-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/amazon.png" alt="Screenshot of Amazon" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Amazon Clone</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">UI Clone Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                   HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    Tailwind CSS
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Built a clone of Amazon's homepage, replicating its design
+                  and layout with a responsive structure. Utilized Tailwind
+                  CSS for modern styling, HTML and CSS for the framework,
+                  ensuring a user-friendly interface.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--calorie counter-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/calorie counter.png" alt="Screenshot od calorie counter" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Calorie Counter</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    UI/UX
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Calorie Counter application to track daily calorie intake. Built an interactive and responsive user interface using HTML and CSS, incorporating JavaScript for dynamic functionality. Features include user input for food items and calories, real-time calculation, and a visually appealing layout that enhances user engagement and usability.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Human Factor-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/human factor.png" alt="Screenshot of Human Factor" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Healthtake (Human Factors Engineering Project)</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    UI/UX
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Designed and developed a prototype for Healthtake, focusing on human factors engineering principles. Created a responsive and user-friendly interface using HTML and CSS, with JavaScript enabling interactive features. The project emphasizes accessibility, usability, and an intuitive layout to enhance the overall user experience, aligning with modern design standards.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--music player-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/music player.png" alt="Screenshot of music player" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Music Player</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Web Application Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a fully functional Music Player application, replicating the design and core functionality of popular media players. Designed a responsive and visually appealing interface using HTML and CSS, and implemented dynamic features like play, pause, skip, and volume control using JavaScript. Ensured a smooth and engaging user experience with a clean and modern layout.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--date formater-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/date formatter.png" alt="Screenshot of date formatter" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Date Formatter</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Utility Application Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Date Formatter application to format and display dates in various styles. Built a clean and responsive interface using HTML and CSS, with JavaScript handling the core functionality for seamless date conversion. Ensured an intuitive user experience with real-time formatting, enhancing usability for everyday tasks.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--palindrome checker-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/palindrome checker.png" alt="Screenshot of Palindrome checker" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Palindrome Checker</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Web Application Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    UI/UX
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Palindrome Checker application to verify if a given input is a palindrome. Designed a clean and responsive layout using HTML and CSS, while implementing logic with JavaScript to provide instant feedback to users. The project ensures an interactive and intuitive experience, demonstrating dynamic functionality and user-centric design principles.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--penguin-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/penguine.png" alt="Screenshot of Penguin" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Penguin Design Project</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Responsive Web Design</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Created a responsive web application featuring a penguin-themed design. Developed an engaging and visually appealing layout using HTML and CSS, ensuring compatibility across various devices and screen sizes. Focused on crafting a clean and modern design to deliver an interactive and enjoyable user experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Platformar Game-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/platfrom track game.png" alt="Screenshot of platform Game" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Platformer Game</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Game Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Designed and developed a 2D Platformer Game, incorporating engaging gameplay mechanics and visually appealing graphics. Utilized HTML and CSS for structuring and styling the game interface, while JavaScript powered the game logic, player interactions, and animations. Ensured responsive design for seamless playability across different devices, creating an immersive and user-friendly gaming experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--portfolio page-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/portfolio.png" alt="Screenshot of Portfolio" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Portfolio Website</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Website Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Designed and developed a personal portfolio website to showcase projects and skills. Built a clean and responsive layout using HTML and CSS, with JavaScript integrated for interactivity and enhanced user experience. Ensured a modern and professional design with smooth navigation, making it accessible and engaging across all devices.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--rock paper Scissors-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/rock paper secissors.png" alt="Screenshot of Rock Paper Scissors" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Rock Paper Scissors Game</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Interactive Game Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed an interactive Rock Paper Scissors game, replicating the classic gameplay with a modern interface. Built using HTML, CSS, and JavaScript, the project features responsive design, ensuring compatibility across devices. The game includes dynamic interactions, real-time result calculations, and a visually engaging layout to enhance user experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--spam checker-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/spam checker.png" alt="Screenshot of Spam Checker" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Spam Checker</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Application Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  JavaScript
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Spam Checker application to identify and filter potential spam content. Designed a responsive and intuitive user interface using HTML and CSS, with a focus on modern and adaptive layouts. Implemented core functionality using JavaScript to analyze user inputs and deliver real-time feedback, ensuring a seamless and efficient user experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--satisticl calculator-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/statistical checker.png" alt="Screenshot of Statistical Calculator" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Statistical Calculator</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Statistical Calculator to compute various statistical terms such as mean, median, mode, range, variance, and standard deviation. Built a responsive and user-friendly interface using HTML, CSS, and JavaScript, ensuring the calculator is accessible across devices. Integrated dynamic functionality to provide real-time calculations, offering a clean and efficient tool for statistical analysis.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--roman number convertor-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/roman convertor.png" alt="Screenshot of Roman Calculator" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Roman Number Converter</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Roman Number Converter to convert numbers between Roman numerals and standard decimal numbers. Built a responsive and user-friendly interface using HTML, CSS, and JavaScript, ensuring smooth functionality across devices. Integrated dynamic features to provide instant conversions, offering an intuitive and efficient tool for converting and understanding Roman numerals.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--team stats-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/team stats.png" alt="Screenshot of Team Stats" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • T20 World Cup 2024 Winning Team Stats</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a web application to display and analyze the statistics of the T20 World Cup 2024 winning team. Built a responsive and interactive interface using HTML, CSS, and JavaScript, showcasing key performance metrics and player stats. The project includes real-time data representation, ensuring an engaging and informative experience for cricket fans and analysts.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--To Do App-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/todo app.png" alt="Screenshot of To Do App" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • To-Do App</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    UI/UX
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a To-Do App to help users manage tasks efficiently. Built a responsive and intuitive user interface using HTML, CSS, and JavaScript, ensuring the app is accessible on various devices. Integrated dynamic functionality to add, edit, and delete tasks, providing a clean and organized tool for task management and productivity.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--tic tac toe-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/tic tac toe game.png" alt="Screenshot of Tic Tac Toe" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Tic Tac Toe Game</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Game Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Tic Tac Toe game with an interactive and responsive user interface using HTML, CSS, and JavaScript. Designed a clean layout that adapts seamlessly across devices. Implemented dynamic gameplay functionality, allowing users to play against each other with real-time updates, offering a fun and engaging experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--spread sheet-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/spreadsheet.png" alt="Screenshot of Spreadsheet" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Spreadsheet</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Spreadsheet application similar to an Excel sheet, allowing users to create and manage data in a grid layout. Built a responsive and user-friendly interface using HTML, CSS, and JavaScript, ensuring accessibility across devices. Integrated dynamic functionality for cell editing, data input, and basic calculations, providing a clean and efficient tool for managing data in a tabular format.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Telephone Number Validator-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/telephone number validator.png" alt="Screenshot of Telephone Number Validator" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Telephone Number Validator</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Telephone Number Validator to validate phone numbers based on specific formats and rules. Built a responsive and user-friendly interface using HTML, CSS, and JavaScript, ensuring the tool is accessible across devices. Integrated real-time validation functionality, providing users with instant feedback on the validity of entered phone numbers for an efficient and seamless experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Number Sorter-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/number sorter.png" alt="Screenshot of Number Sorter" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Number Sorter</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Number Sorter application to organize a set of numbers in ascending or descending order. Built a responsive and user-friendly interface using HTML, CSS, and JavaScript, ensuring seamless functionality across devices. Integrated dynamic sorting functionality that allows users to input numbers and sort them in real-time, providing a simple and effective tool for number organization.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--dessert card-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/desserts page.png" alt="Screenshot of Dessert Shopping Card" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Dessert Shopping Cart</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Dessert Shopping Cart application to allow users to browse and purchase various dessert items. Built a responsive and visually appealing interface using HTML, CSS, and JavaScript, ensuring a seamless experience across devices. Integrated dynamic functionality for adding, removing, and updating dessert items in the cart, providing a smooth and interactive shopping experience.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Advanced dice game-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/advanced dice game.png" alt="Screenshot of Advanced Dice Game" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Advanced Dice Game</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Game Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed an Advanced Dice Game that offers an interactive and engaging experience for users. Built a responsive and visually appealing interface using HTML, CSS, and JavaScript, ensuring the game is accessible on various devices. Integrated dynamic functionality to roll the dice, calculate scores, and display game results, providing an entertaining and user-friendly platform for users to enjoy.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Cash Register-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/cash register project.png" alt="Screenshot of Cash Register" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Cash Register</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Cash Register application to calculate total bills and provide change. Built a responsive and user-friendly interface using HTML, CSS, and JavaScript, ensuring the app functions seamlessly across various devices. Integrated dynamic functionality to input item prices, calculate totals, and determine the correct change, offering an efficient tool for managing transactions.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Decimal to Binary Convertor-->
+          <div class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100">
+            <a href="/projects/fintech-app/">
+              <div class="project-img rounded-sm mb-3">
+                <img class="" src="./images/binary_to_decimal.png" alt="Screenshot of Decimal to Binary Calculator" loading="lazy" />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] font-epilogue mb-1">2024 • Decimal to Binary Converter</p>
+                <h2 class="text-3xl font-epilogue text-[#e5e5e5] mb-2">Personal Project Development</h2>
+                <ul class="flex flex-row font-epilogue text-[#e5e5e5] flex-wrap gap-2 mb-3">
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    HTML
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    CSS
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="border border-1 border-gray-500 border-opacity-40 hover:opacity-100 rounded-full px-2 py-1/2"
+                  >
+                  Responsive Design
+                  </li>
+                </ul>
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Developed a Decimal to Binary Converter application to convert decimal numbers into their binary equivalents. Built a responsive and user-friendly interface using HTML, CSS, and JavaScript, ensuring the app is accessible across devices. Integrated dynamic functionality to input decimal values and display the corresponding binary output, providing an efficient tool for quick and accurate conversions.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer Section-->
+    <section class="w-fullmy-5 py-10 bg-[#0a0a0a]">
+      <footer>
+        <div class="flex flex-row justify-center gap-5 text-2xl mb-5">
+          <a href="mailto:sandeep_2312res990@gmail.com">
+            <i
+              class="fa fa-thin fa-envelope text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+          <a href="https://github.com/Sandeep-mehta-IITP/">
+            <i
+              class="fa fa-thin fa-github text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+          <a  href="https://in.linkedin.com/in/sandeep-mehta-90a1212b7/">
+            <i
+              class="fa fa-thin fa-linkedin text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+          <a href="https://www.instagram.com/sandeep._mehta/">
+            <i
+              class="fa fa-thin fa-instagram text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+        </div>
+        <p class="text-center font-epilogue text-[#e5e5e5] text-xl">
+          &copy;2024 Sandeep Mehta
+        </p>
+      </footer>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

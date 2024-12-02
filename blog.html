@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Sandeep Mehta</title>
+    <link
+      rel="icon"
+      type="favicon"
+      href="./images/coding-removebg-preview.svg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <header class="bg-[#0a0a0a] lg:flex lg:justify-between py-3 px-6 gap-5">
+      <div class="flex justify-between font-bold items-center ml-2">
+        <a href="/" class="text-xl no-underline font-epilogue text-[#E5E5E5]"
+          >Sandeep Mehta</a
+        >
+        <div class="block lg:hidden">
+          <button id="astronav-menu">
+            <svg
+              fill="currentColor"
+              class="w-4 h-4 text-gray-500 opacity-100"
+              width="24"
+              height="24"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path
+                class="astronav-toggle hidden"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.829 4.828 4.828z"
+              ></path>
+              <path
+                class="astronav-toggle"
+                fill-rule="evenodd"
+                d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <nav class="astronav-toggle hidden lg:flex">
+        <div
+          class="flex flex-col font-epilogue text-[#E5E5E5] lg:flex-row gap-3 lg:gap-5 py-5 lg:py-1 items-baseline"
+        >
+          <ul
+            class="flex flex-col font-epilogue text-[#E5E5E5] lg:flex-row gap-3 lg:gap-5 py-5 lg:py-1 items-baseline"
+          >
+            <li class="text-[#E5E5E5] text-[18px] cursor-pointer">
+              <a
+                href="/"
+                class="nav-link underline underline-offset-sm decoration-transparent transition duration-300 hover:decoration-nav-link-hover hover:underline-offset-md"
+                >Home</a
+              >
+            </li>
+            <li class="text-[#E5E5E5] text-[18px] cursor-pointer">
+              <a
+                href="/project.html"
+                class="nav-link underline underline-offset-sm decoration-transparent transition duration-300 hover:decoration-nav-link-hover hover:underline-offset-md"
+                >Projects</a
+              >
+            </li>
+            <li class="text-[#E5E5E5] text-[18px] cursor-pointer">
+              <a
+                href="/blog.html"
+                class="nav-link-active underline decoration-nav-link-hover underline-offset-md"
+                >Blog</a
+              >
+            </li>
+          </ul>
+          <button>
+            <a
+              href="/contact.html"
+              class="py-1 px-3 border border-solid border-blue cursor-pointer rounded-sm no-underline hover:border-[#467599] hover:bg-[#467599] transition-colors duration-150 inline-block transform ease-in group-hover:translate-x-2"
+            >
+              Contact
+              <span class="text-[20px] font-bold group-hover:space-x-2"
+                >&#8599;</span
+              >
+            </a>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!--Title section-->
+    <section class="bg-[#1F2124] px-8 py-8 md:py-12">
+      <div class="container mx-auto">
+        <div class="w-1/2">
+          <h1 class="text-4xl font-epilogue text-[#E5E5E5]">Blog</h1>
+        </div>
+      </div>
+    </section>
+
+    <!--Main Blog Section-->
+    <main class="bg-[#0a0a0a] font-epilogue px-8 py-8 md:py-12">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <!--Web Development Documentation-->
+          <div
+            class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100"
+          >
+            <a href="/projects/fmt-redesign/">
+              <div class="project-img rounded-sm mb-3">
+                <img
+                  class=""
+                  src="./images/web development  documentation.png"
+                  alt="Web Development Documentation"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] mb-1">August 07, 2024</p>
+                <h2 class="text-3xl text-[#e5e5e5] mb-2">
+                  Introduction to Web Development
+                </h2>
+                
+                <p class="text-[#c4c4c4] font-epilogue">
+                  A beginner-friendly overview of web development, including its definition, history, importance, and life cycle. Learn how web development has evolved over time and understand the phases involved in creating interactive and functional websites.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--C.V. Raman-->
+          <div
+            class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100"
+          >
+            <a href="/projects/fmt-redesign/">
+              <div class="project-img rounded-sm mb-3">
+                <img
+                  class=""
+                  src="./images/C.V. Raman.png"
+                  alt="Dr C.V. Raman"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] mb-1">September 22, 2024</p>
+                <h2 class="text-3xl text-[#e5e5e5] mb-2">
+                  C.V. Raman: A Pioneer in Physics
+                </h2>
+                
+                <p class="text-[#c4c4c4] font-epilogue">
+                  Explore the life and achievements of C.V. Raman, the Nobel Prize-winning physicist who discovered the Raman Effect. Learn about his groundbreaking contributions to the field of light scattering and his enduring legacy in science and research.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!--Dr APJ Abdul Kalam-->
+          <div
+            class="project-card flex flex-col md:flex-row gap-5 rounded-sm border cursor-pointer border-gray-500 p-3 border-opacity-40 hover:bg-[#1f2124] hover:opacity-100"
+          >
+            <a href="/projects/fmt-redesign/">
+              <div class="project-img rounded-sm mb-3">
+                <img
+                  class=""
+                  src="./images/Dr Apj Abdul Kalam.png"
+                  alt="Dr APJ Abdul Kalam"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p class="text-lg text-[#c4c4c4] mb-1">October 15, 2024</p>
+                <h2 class="text-3xl text-[#e5e5e5] mb-2">
+                  Dr. APJ Abdul Kalam: The Missile Man of India
+                </h2>
+                
+                <p class="text-[#c4c4c4] font-epilogue">
+                  A tribute to Dr. APJ Abdul Kalam, highlighting his inspiring journey from a scientist to the President of India. Explore his contributions to India's space and missile programs, his vision for youth empowerment, and his legacy as a leader and educator.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer Section-->
+    <section class="w-fullmy-5 py-10 bg-[#0a0a0a]">
+      <footer>
+        <div class="flex flex-row justify-center gap-5 text-2xl mb-5">
+          <a href="mailto:sandeep_2312res990@gmail.com">
+            <i
+              class="fa fa-thin fa-envelope text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+          <a href="https://github.com/Sandeep-mehta-IITP/">
+            <i
+              class="fa fa-thin fa-github text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+          <a  href="https://in.linkedin.com/in/sandeep-mehta-90a1212b7/">
+            <i
+              class="fa fa-thin fa-linkedin text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+          <a href="https://www.instagram.com/sandeep._mehta/">
+            <i
+              class="fa fa-thin fa-instagram text-white text-2xl me-2 hover:text-[#14bef0] transition-colors cursor-pointer"
+            ></i>
+          </a>
+        </div>
+        <p class="text-center font-epilogue text-[#e5e5e5] text-xl">
+          &copy;2024 Sandeep Mehta
+        </p>
+      </footer>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

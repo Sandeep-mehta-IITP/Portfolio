@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,:before,:after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor
+}
+
+:before,:after {
+    --tw-content: ""
+}
+
+.flex {
+    overflow: visible;
+}
+
+.project-container:hover>.feat-project-card {
+    opacity: .5
+}
+
+.project-container:hover>.feat-project-card:hover {
+    background-color: #1f2124;
+    opacity: 1
+}
+
+.project-card:hover {
+    background-color: #1f2124
+}
+
+.project-card>a>.project-img {
+    overflow: hidden!important
+}
+
+.project-card>a>.project-img>img {
+    transition: ease-in-out .2s
+}
+
+.project-card:hover>a>.project-img>img {
+    transition: ease-in-out .25s;
+    transform: scale(1.02)
+}
+
+
+.nav-link {
+    -webkit-text-decoration: underline .15em rgba(0,0,0,0);
+    text-decoration: underline .15em rgba(0,0,0,0);
+    text-underline-offset: .2em;
+    transition: text-decoration-color .3s,text-underline-offset .3s
+}
+
+.nav-link:hover {
+    text-decoration-color: #467599;
+    text-underline-offset: .4em
+}
+
+.nav-link-active {
+    -webkit-text-decoration: underline .15em #467599;
+    text-decoration: underline .15em #467599;
+    text-underline-offset: .4em
+}
